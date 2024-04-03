@@ -8,7 +8,7 @@ with pdfplumber.open('input\POC_RH18347Y_CAI GUO_03122024.pdf') as file:
     first_page = file.pages[0]  # Accessing the first page
     tables = first_page.extract_tables()
     print(len(tables))
-    # print(tables[0][7][0])#-------------- got data
+    print(tables[0][7][0])#-------------- got data
     # print(tables[0][7])
     for table in tables:
         list1.extend(table)
@@ -45,7 +45,7 @@ for i in range(len(headings) - 1):
     extracted_data_string = ' '.join(extracted_data)
     
     # Extract and print the data
-    print(f"{start_heading}: {extracted_data_string}")
+    # print(f"{start_heading}: {extracted_data_string}")
 
 
 # print(list1)

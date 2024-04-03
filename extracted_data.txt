@@ -1,0 +1,98 @@
+NAME OF PATIENT (Last, first, middle)
+GUO, CAI	MEDICAID ID
+R H 1 8 3 4 7 Y	DOB (m/d/Y, age)
+02/20/1954, 70yr	SEX
+Female
+
+Chen	Spouse	(646)
+552-2669					
+
+
+
+Advanced Directives
+Advanced Directives
+DUTY /TASK #
+BATH: TUB (15)
+Yes No
+BATH: SHOWER (16)
+Yes No
+BATH: BED (18)
+Yes No
+GROOMING: SHAVE (23)
+Yes No
+GROOMING: NAIL CARE (FILE NAILS ONLY) (24)
+Yes No
+DRESSING(27)
+Yes No
+SKIN CARE (23)
+Yes No
+FOOT CARE (20)
+Yes No
+PREPARE MEALS(58)
+Breakfast Lunch Dinner FREQUENCY
+As patient needed
+Snack Assist with Feeding (57)
+ORAL CARE (19)
+No
+HAIR CARE (21)
+No
+TRANSFERS(43) AND AMBULATION(42)
+Contact Guard Assist with walking Cane FREQUENCY
+As patient needed
+Crutches Walker Wheelchair
+Rollator Bedbound ROM Turn Q2 Hours (48)
+Hoyer Lift 2 person assist Hoyer Lift 1 person assist
+MEDICATIONS(60)
+Remind to take medications Ask patient about pain FREQUENCY
+3xweek
+ESCORT TO APPOINTMENT (83)
+Yes No As patient needed
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No As patient needed
+
+	Yes		No
+
+	Yes		No 3xweek
+
+	Yes		No 3xweek
+
+	Yes		No 3xweek
+
+	Yes		No 3xweek
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+	Yes		No
+
+Chronic conditions will be managed
+This care plan was developed/discussed with the patient and/or the patient's caregiver, family, authorized representative and was developed or updated by the
+professionals who have signed this document.
+AFTER OFFICE HOURS / WEEKENDS / HOLIDAYS / NIGHTS CALL Xincon Home Health Care Primary Phone Number: 212-960-9218.
+
+NURSE'S SIGNATURE
+03/13/2024 (1710354183)
+Shiyun Cao
+
+

@@ -15,39 +15,12 @@ with pdfplumber.open('input\POC_RH18347Y_CAI GUO_03122024.pdf') as file:
     for table in tables:
         list1.extend(table)
         # print(table)
-flattened_data = [item for sublist in list1 if sublist is not None for item in sublist if item is not None]
-
-split_data = [item.split('\n') for item in flattened_data]
-
-# Flatten the list
-flattened_data = [item.strip() for sublist in split_data for item in sublist]
-flattened_data = [item.replace(", ", ",") for sublist in split_data for item in sublist]
-
-# headings = ['NAME OF PATIENT (Last,first,middle)',"MEDICAID ID",'DOB (m/d/Y,age)',"SEX",
-#                        "HOME STREET ADDRESS (Street or RFD; City or Town; State; and ZIP Code)","PHONE 1",
-#                        "PHONE 2","VISIT DATE","ASSESSMENT TYPE",'PATIENT REPRESENTATIVE/EMERGENCY CONTACT']
-
-data = flattened_data
-
-print(flattened_data)
-
-
-
-
-# for i in range(len(headings) - 1):
-#     start_heading = headings[i]
-#     end_heading = headings[i + 1]
-    
-#     start_index = data.index(start_heading)
-#     end_index = data.index(end_heading)
-    
-#     extracted_data = data[start_index + 1:end_index]
-    
-#     # Join the extracted data into a single string
-#     extracted_data_string = ' '.join(extracted_data)
-    
-#     # Extract and print the data
-#     print(f"{start_heading}: {extracted_data_string}")
-
-
 # print(list1)
+
+list1 = list1[1]
+
+print(list1)
+
+headings = ["BATH: TUB(15)","BATH: SHOWER","BATH: BED","GROOMING: SHAVE","GROOMING: NAIL CARE (FILE NAILS ONLY) (24)","DRESSING(27)",
+            "SKIN CARE (23)","FOOT CARE (20)","PREPARE MEALS(58)","ORAL CARE (19)","HAIR CARE (21)","TRANSFERS(43) AND AMBULATION(42)",
+            "MEDICATIONS(60)"]

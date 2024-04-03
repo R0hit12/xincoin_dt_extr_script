@@ -18,7 +18,7 @@ with open(r"C:\Users\Lenovo\Downloads\checkbox_content_page_2.txt", "r") as file
     my_list = []
     for i in file:
         my_list.append(i.rstrip())  # Removes trailing newline character
-# print(my_list)
+print(my_list)
 
 
 
