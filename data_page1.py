@@ -14,6 +14,7 @@ with pdfplumber.open('input\POC_RH18347Y_CAI GUO_03122024.pdf') as file:
         list1.extend(table)
         # print(table)
 flattened_data = [item for sublist in list1 if sublist is not None for item in sublist if item is not None]
+# print(flattened_data)
 
 split_data = [item.split('\n') for item in flattened_data]
 
